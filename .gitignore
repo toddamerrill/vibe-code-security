@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Large output files (can be regenerated)
+scanner/output/
+scanner/output_v2/
+scan_results/
+
+# OS files
+.DS_Store
+
+# IDE
+.idea/
+.vscode/

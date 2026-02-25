@@ -1,0 +1,241 @@
+{
+  "scan_date": "2026-02-25T19:05:59.044261+00:00",
+  "analysis_date": "2026-02-25T19:12:12.372635+00:00",
+  "total_apps": 603,
+  "grade_distribution": {
+    "C": 553,
+    "F": 4,
+    "D": 30,
+    "B": 16
+  },
+  "grade_percentages": {
+    "C": 91.7,
+    "F": 0.7,
+    "D": 5.0,
+    "B": 2.7
+  },
+  "avg_score": 75.3,
+  "median_score": 76,
+  "score_std_dev": 3.4,
+  "platform_stats": {
+    "lovable": {
+      "count": 587,
+      "avg_score": 75.4,
+      "min_score": 59,
+      "max_score": 82,
+      "grade_distribution": {
+        "C": 542,
+        "F": 3,
+        "D": 28,
+        "B": 14
+      },
+      "pct_grade_c_or_below": 97.6
+    },
+    "replit": {
+      "count": 15,
+      "avg_score": 70.8,
+      "min_score": 59,
+      "max_score": 80,
+      "grade_distribution": {
+        "F": 1,
+        "B": 1,
+        "C": 11,
+        "D": 2
+      },
+      "pct_grade_c_or_below": 93.3
+    },
+    "create_xyz": {
+      "count": 1,
+      "avg_score": 80.0,
+      "min_score": 80,
+      "max_score": 80,
+      "grade_distribution": {
+        "B": 1
+      },
+      "pct_grade_c_or_below": 0.0
+    }
+  },
+  "category_stats": {
+    "headers": {
+      "avg_score": 35.2,
+      "min_score": 15,
+      "max_score": 75,
+      "pct_below_50": 98.5,
+      "pct_perfect_100": 0.0
+    },
+    "secrets": {
+      "avg_score": 97.0,
+      "min_score": 50,
+      "max_score": 100,
+      "pct_below_50": 0.0,
+      "pct_perfect_100": 92.4
+    },
+    "baas": {
+      "avg_score": 80.0,
+      "min_score": 80,
+      "max_score": 80,
+      "pct_below_50": 0.0,
+      "pct_perfect_100": 0.0
+    },
+    "auth": {
+      "avg_score": 70.0,
+      "min_score": 70,
+      "max_score": 70,
+      "pct_below_50": 0.0,
+      "pct_perfect_100": 0.0
+    },
+    "app_security": {
+      "avg_score": 75.4,
+      "min_score": 75,
+      "max_score": 100,
+      "pct_below_50": 0.0,
+      "pct_perfect_100": 1.5
+    }
+  },
+  "header_adoption": {
+    "Permissions-Policy": {
+      "adoption_rate": 0.0,
+      "missing_count": 603
+    },
+    "X-XSS-Protection": {
+      "adoption_rate": 0.2,
+      "missing_count": 602
+    },
+    "Content-Security-Policy": {
+      "adoption_rate": 1.5,
+      "missing_count": 594
+    },
+    "X-Frame-Options": {
+      "adoption_rate": 1.5,
+      "missing_count": 594
+    },
+    "Cache-Control": {
+      "adoption_rate": 10.1,
+      "missing_count": 542
+    },
+    "Referrer-Policy": {
+      "adoption_rate": 92.9,
+      "missing_count": 43
+    },
+    "X-Content-Type-Options": {
+      "adoption_rate": 93.2,
+      "missing_count": 41
+    },
+    "Strict-Transport-Security": {
+      "adoption_rate": 100.0,
+      "missing_count": 0
+    }
+  },
+  "secret_stats": {
+    "apps_using_supabase": 211,
+    "pct_using_supabase": 35.0,
+    "apps_with_critical_secrets": 4,
+    "apps_with_high_secrets": 0,
+    "apps_exposing_service_role": 0,
+    "pct_exposing_service_role": 0.0
+  },
+  "top_vulnerabilities": [
+    {
+      "vulnerability": "Missing Permissions-Policy",
+      "affected_apps": 603,
+      "pct_affected": 100.0
+    },
+    {
+      "vulnerability": "Missing X-XSS-Protection",
+      "affected_apps": 602,
+      "pct_affected": 99.8
+    },
+    {
+      "vulnerability": "Missing Content-Security-Policy",
+      "affected_apps": 594,
+      "pct_affected": 98.5
+    },
+    {
+      "vulnerability": "Missing X-Frame-Options",
+      "affected_apps": 594,
+      "pct_affected": 98.5
+    },
+    {
+      "vulnerability": "Missing Cache-Control",
+      "affected_apps": 542,
+      "pct_affected": 89.9
+    },
+    {
+      "vulnerability": "Critical Secrets in JS Bundles",
+      "affected_apps": 4,
+      "pct_affected": 0.7
+    }
+  ],
+  "worst_apps": [
+    {
+      "domain": "zerataxcalc.lovable.app",
+      "platform": "lovable",
+      "grade": "F",
+      "score": 59,
+      "weakest_category": "secrets"
+    },
+    {
+      "domain": "travent-card-wallet.replit.app",
+      "platform": "replit",
+      "grade": "F",
+      "score": 59,
+      "weakest_category": "headers"
+    },
+    {
+      "domain": "uni-food-link.lovable.app",
+      "platform": "lovable",
+      "grade": "F",
+      "score": 59,
+      "weakest_category": "headers"
+    },
+    {
+      "domain": "umoby.lovable.app",
+      "platform": "lovable",
+      "grade": "F",
+      "score": 59,
+      "weakest_category": "headers"
+    },
+    {
+      "domain": "www.lovable.app",
+      "platform": "lovable",
+      "grade": "D",
+      "score": 62,
+      "weakest_category": "headers"
+    },
+    {
+      "domain": "id-preview--6780f59e-11c2-40f8-99d5-6dca520b4ada.lovable.app",
+      "platform": "lovable",
+      "grade": "D",
+      "score": 62,
+      "weakest_category": "headers"
+    },
+    {
+      "domain": "id-preview--9fc9ddd8-da71-4476-a412-33d03a50d299.lovable.app",
+      "platform": "lovable",
+      "grade": "D",
+      "score": 62,
+      "weakest_category": "headers"
+    },
+    {
+      "domain": "id-preview--b1959e4c-d3f4-4121-a77e-66a83d8d81db.lovable.app",
+      "platform": "lovable",
+      "grade": "D",
+      "score": 62,
+      "weakest_category": "headers"
+    },
+    {
+      "domain": "id-preview--35c4d87e-7f0b-403f-8063-91c1e7f452d8.lovable.app",
+      "platform": "lovable",
+      "grade": "D",
+      "score": 62,
+      "weakest_category": "headers"
+    },
+    {
+      "domain": "id-preview--bd00b1a0-3925-46e7-b5b1-36e545a7d2ab.lovable.app",
+      "platform": "lovable",
+      "grade": "D",
+      "score": 62,
+      "weakest_category": "headers"
+    }
+  ]
+}
