@@ -542,7 +542,7 @@ Grade:
 ## Appendix C: Data Availability
 
 Aggregate analysis data and scanning methodology available at:
-https://github.com/[repository]
+https://github.com/toddamerrill/vibe-code-security
 
 Individual application data is not published to protect potentially vulnerable deployments.
 
