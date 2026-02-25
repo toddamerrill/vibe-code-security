@@ -355,7 +355,7 @@ async def main():
     async with httpx.AsyncClient(
         timeout=TIMEOUT,
         follow_redirects=True,
-        headers={'User-Agent': 'SSAP-SecurityResearch/1.0 (security-study@securestack.app)'}
+        headers={'User-Agent': 'SSAP-SecurityResearch/1.0 (todd@silverbackcto.com)'}
     ) as client:
         
         # Phase 1: Discovery

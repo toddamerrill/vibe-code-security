@@ -173,7 +173,7 @@ async def scrape_bolt() -> list[DiscoveredApp]:
     """Run all Bolt.new discovery sources."""
     async with httpx.AsyncClient(
         timeout=30.0, follow_redirects=True,
-        headers={"User-Agent": "SSAP-Research-Bot/1.0 (security-research; contact@securestack.app)"},
+        headers={"User-Agent": "SSAP-Research-Bot/1.0 (security-research; todd@silverbackcto.com)"},
         limits=httpx.Limits(max_connections=10, max_keepalive_connections=5),
     ) as client:
         results = await asyncio.gather(

@@ -189,7 +189,7 @@ async def scrape_social() -> list[DiscoveredApp]:
     """Run all social/community discovery sources."""
     async with httpx.AsyncClient(
         timeout=30.0, follow_redirects=True,
-        headers={"User-Agent": "SSAP-Research-Bot/1.0 (security-research; contact@securestack.app)"},
+        headers={"User-Agent": "SSAP-Research-Bot/1.0 (security-research; todd@silverbackcto.com)"},
     ) as client:
         results = await asyncio.gather(
             _scrape_reddit(client),
