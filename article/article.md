@@ -1,8 +1,8 @@
 # Insecure by Default: A Cross-Platform Security Analysis of AI-Generated Web Applications
 
-**Theron McLarty¹, Todd Merrill¹**
+**Kirby Winters¹, Todd Merrill¹**
 
-¹ Nemo Security / SecureStack Assessment Platform
+¹ CyberSavi / SecureStack Assessment Platform
 
 **Preprint — February 2026**
 
@@ -428,7 +428,7 @@ The "C grade by default" pattern should eliminate any false confidence. A C grad
 
 ### 6.3 For Developers Using Vibe Coding Tools
 
-1. **Run security scans before deployment** — tools like SSAP, VibeAppScanner, and Escape.tech exist for this purpose
+1. **Run security scans before deployment** — tools like [SecureStackScan.com](https://securestackscan.com) exist for this purpose
 
 2. **Add security headers** via deployment platform configuration (vercel.json, netlify.toml, _headers file)
 

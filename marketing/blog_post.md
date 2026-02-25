@@ -198,7 +198,7 @@ A C-grade app is one XSS vulnerability away from a security incident. Without CS
 ### You Need To:
 
 1. **Add headers** — 5 minutes of work, massive security improvement
-2. **Scan your app** — tools like [SSAP](https://ssap.dev), Escape.tech, and Mozilla Observatory exist
+2. **Scan your app** — tools like [SecureStackScan.com](https://securestackscan.com) exist for automated security assessment
 3. **Understand your BaaS** — if you're using Supabase, understand RLS; if Firebase, understand Security Rules
 4. **Don't trust "it works" as "it's secure"**
 
@@ -241,13 +241,13 @@ Until then: **add your headers, scan your apps, and don't assume the AI got secu
 
 ## Resources
 
-- **Scan your app:** [Mozilla Observatory](https://observatory.mozilla.org), [SecurityHeaders.com](https://securityheaders.com)
+- **Scan your app:** [SecureStackScan.com](https://securestackscan.com)
 - **CSP Generator:** [CSP Evaluator](https://csp-evaluator.withgoogle.com)
 - **Supabase RLS Guide:** [Row Level Security docs](https://supabase.com/docs/guides/auth/row-level-security)
 - **Full Research Paper:** [Insecure by Default: A Cross-Platform Security Analysis](../article/article.md)
 
 ---
 
-*This research was conducted by the SSAP Security Study team. Data collected February 2026. Individual application data is not published to protect potentially vulnerable deployments.*
+*This research was conducted by the CyberSavi security research team. Data collected February 2026. Individual application data is not published to protect potentially vulnerable deployments.*
 
 *Questions? Contact todd@techcxo.com*
