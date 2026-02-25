@@ -250,4 +250,4 @@ Until then: **add your headers, scan your apps, and don't assume the AI got secu
 
 *This research was conducted by the CyberSavi security research team. Data collected February 2026. Individual application data is not published to protect potentially vulnerable deployments.*
 
-*Questions? Contact todd@techcxo.com*
+*Questions? Contact todd@silverbackcto.com*

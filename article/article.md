@@ -385,7 +385,7 @@ Our findings both confirm and extend prior research:
 **Extension:**
 - We provide the first detailed header adoption rate analysis
 - Our category-level breakdown enables targeted intervention recommendations
-- The consistent B-grade clustering was not previously documented
+- The consistent C-grade clustering ("mediocre by default") was not previously documented
 
 ### 5.5 Implications for the Ecosystem
 
@@ -548,7 +548,7 @@ Individual application data is not published to protect potentially vulnerable d
 
 ---
 
-*Corresponding author: todd@techcxo.com*
+*Corresponding author: todd@silverbackcto.com*
 
 *Scan date: February 25, 2026*
 
